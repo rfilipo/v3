@@ -1,101 +1,55 @@
 # Go
 
-## Specialties
+Welcome to the workspace for Exercism v3's Go track!
 
-- Channels
-- Code Formatting
-- Concurrency
-- Defer
-- Empty Interface
-- Errors and Error Handling
-- Modules
-- Multiple Return Values
-- Named Returns
-- Nil
-- Packages
-- Panics
-- Pointers
-- Reflection
-- Type Switch
-- Unsafe
-- Zero Values
+This area will contain everything needed to launch the Go track, including:
 
-## General concepts
+- The new exercises and `config.json` file.
+- Reference documentation that help explain Go concepts for which no appropriate online document could be found.
+- Go-specific documentation for contributors.
 
-- [Arithmetic](../../concepts/arithmetic.md)
-- [Bitwise manipulation](../../concepts/bitwise_manipulation.md)
-- [Boolean logic](../../concepts/boolean_logic.md)
-- Channels
-- Code Formatting
-- [Comments](../../concepts/comments.md)
-- Concurrency
-- [Conditionals](../../concepts/conditionals.md)
-- Defer
-- Errors and Error Handling
-- [Functions](../../concepts/functions.md)
-- [Loops](../../concepts/loops.md)
-- [Methods](../../concepts/methods.md)
-- Modules
-- [Mutexes](../../concepts/locking.md)
-- Packages
-- Panics
-- Pointers
-- Nil
-- Reflection
-- [Scope](../../concepts/scope.md)
-- Type Switch
-- Unsafe
-- [Variables](../../concepts/variables.md)
-- Zero Values
+## Preparation Status
 
-## Object-oriented Concepts
+Before we publicize requesting contribution for this language, the following steps should be done.
 
-> Although Go has types and methods and allows an object-oriented style of programming, there is no type hierarchy. The concept of “interface” in Go provides a different approach that we believe is easy to use and in some ways more general. There are also ways to embed types in other types to provide something analogous—but not identical—to subclassing. Moreover, methods in Go are more general than in C++ or Java: they can be defined for any sort of data, even built-in types such as plain, “unboxed” integers. They are not restricted to structs (classes). [Is Go an object-oriented language?](https://golang.org/doc/faq#Is_Go_an_object-oriented_language)
+- [ ] [Convert existing files to new repository structure](../../docs/maintainers/repository-structure.md)
+- [ ] Have a kick-off discussion between track maintainers
+- [ ] Fill out the [maintainers.md](./maintainers.md) file (e.g. [C#](../csharp/maintainers.md))
+- [ ] Ensure there is a link to your track's GitHub issues on the [main README.md](../../README.md)
+- [ ] [Write a Concept Exercise implementation guide](../../docs/maintainers/writing-a-concept-exercise-github-issue.md)
+- [ ] [List out key Concepts for your language](../../docs/maintainers/determining-concepts.md)
+- [ ] [Add GitHub issues for 20 Concept Exercises](../../docs/maintainers/writing-a-concept-exercise-github-issue.md)
 
-- Structs (Classes)
-- Method Sets
-- Encapsulation
-- State
-- Mutation
-- Composition
-- Polymorphism (?)
-- Interfaces
+## Readiness for Launch
 
-## Functional Concepts
+Before launch, we need all of the following parts to be completed:
 
-> Go is not a functional language but has a lot of features that enable us to apply functional principles. [Functional Go](https://medium.com/@geisonfgfg/functional-go-bc116f4c96a4)
+### Track Structure
 
-- Anonymous Functions
-- Function Composition
-- Higher Order Functions
-- Multiple Return Values
-- Named Returns
-- Nested Functions
-- Partial Application
-- Pipelines (?)
-- Pure Functions (?)
-- Recursion
-- REPL (some community projects)
-- Type Inference
+- [ ] Implemented 20+ Concept Exercises
+- [ ] [Updated `config.json`](../../docs/maintainers/migrating-your-config-json-files.md)
+  - [x] Added `version` key
+  - [x] Added online editor settings
+    - [x] Added `indent_style`
+    - [x] Added `indent_size`
+  - [ ] Added Concept Exercises
+  - [ ] Added Concepts for all Practice Exercises
 
-## Types
+### Representer
 
-- array (rarely used)
-- bool
-- channel
-- function
-- interface
-- interface{} (empty interface)
-- map
-- nil
-- Numeric Types (`uint` types, `int` types, `float` types, `complex` types, `byte` and `rune`)
-- pointer
-- slice
-- string
-- struct
+- [ ] Build Representer
+- [ ] Deploy Representer
 
-## Resources used
+### Test Runner
 
-- [The Go Programming Language Specification](https://golang.org/ref/spec)
-- [Effective Go](https://golang.org/doc/effective_go.html)
-- [Frequently Asked Questions (FAQ)](https://golang.org/doc/faq)
+- [ ] Build Test Runner
+- [ ] Deploy Test Runner
+
+## Extra magic
+
+These extra steps will make your track better, but are optional.
+
+### Analyzer
+
+- [ ] Build Analyzer
+- [ ] Deploy Analyzer

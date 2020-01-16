@@ -1,73 +1,55 @@
 # Python
 
-Python is an interpreted, dynamically (but strongly) typed, and garbage-collected general programming language that has become extremely popular due to its readability, low barrier for entry, and exceptionally deep ecosystem of libraries and tools. Python is object-based, but is inherently multi-paradigm and has drawn together influences from a wide range of programming languages, including ABC, Haskell, Lisp, and Modula-3.
+Welcome to the workspace for Exercism v3's Python track!
 
-## Language-unique concepts
+This area will contain everything needed to launch the Python track, including:
 
-- [The Zen of Python](./info/zen_of_python.md)
-- [Pythonic](./info/pythonic.md) code
-- [Python Enhancement Proposals](./info/python_enhancement_proposals.md)
-- [PEP 8](./info/pep_8_style_guide.md) styie conventions
+- The new exercises and `config.json` file.
+- Reference documentation that help explain Python concepts for which no appropriate online document could be found.
+- Python-specific documentation for contributors.
 
-## Object-oriented concepts
+## Preparation Status
 
-- [Classes](../../concepts/classes.md)
-- [Composition](../../concepts/composition.md)
-- [Encapsulation](../../concepts/encapsulation.md)
-- [Inheritance](../../concepts/inheritance.md)
-- [Interfaces](../../concepts/interfaces.md)
-- [Mutation](../../concepts/mutation.md)
-- [Objects](../../concepts/objects.md)
-- [Polymorphism](../../concepts/polymorphism.md)
-- [State](../../concepts/state.md)
+Before we publicize requesting contribution for this language, the following steps should be done.
 
-## Functional concepts
+- [ ] [Convert existing files to new repository structure](../../docs/maintainers/repository-structure.md)
+- [ ] Have a kick-off discussion between track maintainers
+- [ ] Fill out the [maintainers.md](./maintainers.md) file (e.g. [C#](../csharp/maintainers.md))
+- [ ] Ensure there is a link to your track's GitHub issues on the [main README.md](../../README.md)
+- [ ] [Write a Concept Exercise implementation guide](../../docs/maintainers/writing-a-concept-exercise-github-issue.md)
+- [ ] [List out key Concepts for your language](../../docs/maintainers/determining-concepts.md)
+- [ ] [Add GitHub issues for 20 Concept Exercises](../../docs/maintainers/writing-a-concept-exercise-github-issue.md)
 
-- [Anonymous functions](../../concepts/anonymous_functions.md) (Python's `lambda`s)
-- [Higher-order functions](../../concepts/higher_order_functions.md)
-- [Immutability](../../concepts/immutability.md) (of certain builtin primitives)
-- [Nested functions](../../concepts/nested_functions.md)
-- [Partial application](../../concepts/partial_application.md)
-- [Pipelines](../../concepts/pipelines.md)
-- [Pure functions](../../concepts/pure_functions.md)
-- [Recursion](../../concepts/recursion.md)
-- [REPL](../../concepts/repl.md)
-- [Type inference](../../concepts/type_inference.md)
+## Readiness for Launch
 
-## General concepts
+Before launch, we need all of the following parts to be completed:
 
-- [Arithmetic](../../concepts/arithmetic.md)
-- [Bitwise manipulation](../../concepts/bitwise_manipulation.md)
-- [Boolean logic](../../concepts/boolean_logic.md)
-- [Comments](../../concepts/comments.md)
-- [Conditionals](../../concepts/conditionals.md)
-- [Enumeration](../../concepts/enumeration.md)
-- [Functions](../../concepts/functions.md)
-- [Generics](../../concepts/generics.md)
-- [Locking](../../concepts/locking.md)
-- [Loops](../../concepts/loops.md)
-- [Methods](../../concepts/methods.md)
-- [Scope](../../concepts/scope.md)
-- [Variables](../../concepts/variables.md)
+### Track Structure
 
-## Types
+- [ ] Implemented 20+ Concept Exercises
+- [ ] [Updated `config.json`](../../docs/maintainers/migrating-your-config-json-files.md)
+  - [ ] Added `version` key
+  - [ ] Added online editor settings
+    - [ ] Added `indent_style`
+    - [ ] Added `indent_size`
+  - [ ] Added Concept Exercises
+  - [ ] Added Concepts for all Practice Exercises
 
-- [array](../../types/array.md)
-- [bool](../../types/boolean.md)
-- [bytes](../../types/bytes.md)
-- [class](../../types/class.md)
-- [float](../../types/floating_point_number.md)
-- [decimal](../../types/decimal_number.md)
-- [deque](../../types/deque.md)
-- [dict](../../types/hash_map.md)
-- [int](../../types/integer.md)
-- [list](../../types/list.md)
-- [None](../../types/null.md)
-- [set](../../types/set.md)
-- [str](../../types/string.md)
-- [struct](../../types/struct.md)
-- [tuple](../../types/tuple.md)
+### Representer
 
-## Resources used
+- [ ] Build Representer
+- [ ] Deploy Representer
 
-- https://www.python.org
+### Test Runner
+
+- [ ] Build Test Runner
+- [ ] Deploy Test Runner
+
+## Extra magic
+
+These extra steps will make your track better, but are optional.
+
+### Analyzer
+
+- [ ] Build Analyzer
+- [ ] Deploy Analyzer

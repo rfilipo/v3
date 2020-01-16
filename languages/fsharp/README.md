@@ -1,106 +1,55 @@
-_Note: All subconcepts should be split out into seperate files under the concepts directory and hyperlinked._
-
 # F&#35;
 
-## Language-unique concepts
+Welcome to the workspace for Exercism v3's F# track!
 
-These are concepts that, as far as I know, are either unique to F# or shared with only a few languages:
+This area will contain everything needed to launch the F# track, including:
 
-- Dependency order
-- Computation expressions
-- Type providers
-- Active patterns
-- Pipeline operator
-- Double-quoted identifiers (many more characters allowed in names)
-- Units of measure
-- Code quotations
-- Reference cells
-- Object expressions
-- byref (dealing with memory)
+- The new exercises and `config.json` file.
+- Reference documentation that help explain F# concepts for which no appropriate online document could be found.
+- F#-specific documentation for contributors.
 
-## Functional concepts
+## Preparation Status
 
-Thinking as an F# developer means knowing about how to use the following functional programming concepts in F# (as F# is, after all, a functional-first language):
+Before we publicize requesting contribution for this language, the following steps should be done.
 
-- [Immutability](../../concepts/immutability.md)
-- [Pattern matching](../../concepts/pattern_matching.md)
-- [Function composition](../../concepts/function_composition.md)
-- [Pure functions](../../concepts/pure_functions.md)
-- [Higher-order functions](../../concepts/higher_order_functions.md)
-- [Nested functions](../../concepts/nested_functions.md)
-- [Anonymous functions](../../concepts/anonymous_functions.md)
-- [Partial application](../../concepts/partial_application.md)
-- [Type inference](../../concepts/type_inference.md)
-- [Expression-oriented (not statement oriented)](../../concepts/expression_oriented.md)
-- [Recursion (and tail-recursion)](../../concepts/recursion.md)
-- [Pipelines (for, while, map, filter, reduce)](../../concepts/pipelines.md)
-- [REPL](../../concepts/repl.md)
-- Railway-oriented programming (not a language feature, but a common way of dealing with chaining error states)
-- Monads
-- Currying
-- REPL
+- [x] [Convert existing files to new repository structure](../../docs/maintainers/repository-structure.md)
+- [ ] Have a kick-off discussion between track maintainers
+- [x] Fill out the [maintainers.md](./maintainers.md) file
+- [ ] Ensure there is a link to your track's GitHub issues on the [main README.md](../../README.md)
+- [ ] [Write a Concept Exercise implementation guide](../../docs/maintainers/writing-a-concept-exercise-github-issue.md)
+- [ ] [List out key Concepts for your language](../../docs/maintainers/determining-concepts.md)
+- [ ] [Add GitHub issues for 20 Concept Exercises](../../docs/maintainers/writing-a-concept-exercise-github-issue.md)
 
-## Object-oriented concepts
+## Readiness for Launch
 
-While F# is “functional first” language, it does have (very nice) object-orientation features. It is important to know how and when to apply the OO features, and which OO features (see https://youtu.be/yL7xBhWrdKw?t=2248) to use. The core OO features an F# developer should know about are:
+Before launch, we need all of the following parts to be completed:
 
-- [Classes](../../concepts/classes.md)
-- [Interfaces](../../concepts/interfaces.md)
-- [State](../../concepts/state.md)
-- [Mutation](../../concepts/mutation.md)
-- Dot notation (instead of using functions to access data)
-- Static/non-static members
-- Named arguments
-- Optional arguments
-- Indexers
-- Inheritance
+### Track Structure
 
-Note that some of these features are specific to object-orientation in the world of .NET.
+- [ ] Implemented 20+ Concept Exercises
+- [x] [Updated `config.json`](../../docs/maintainers/migrating-your-config-json-files.md)
+  - [x] Added `version` key
+  - [x] Added online editor settings
+    - [x] Added `indent_style`
+    - [x] Added `indent_size`
+  - [ ] Added Concept Exercises
+  - [ ] Added Concepts for all Practice Exercises
 
-## Platform-specific concepts
+### Representer
 
-- .NET interop (how to integrate with other .NET libraries, which are mostly written in C#. good interop was key in the F# design!)
-- [Assemblies](../../tooling/dotnet-assemblies.md)
+- [ ] Build Representer
+- [ ] Deploy Representer
 
-## General concepts
+### Test Runner
 
-- Automatic generalisation (linked to type inference)
-- Scoping through indentation (whitespace significant)
-- Ranges
-- Slicing (linked to ranges)
-- [Generics](../../concepts/generics.md)
-- Modules
-- Namespaces
-- Attributes
-- Implicit returns (last statement is returned)
-- Messaging and agents
-- Type abbreviations
-- Exception handling
-- Type casting
-- Type extensions
-- Signatures
-- Reflection
+- [ ] Build Test Runner
+- [ ] Deploy Test Runner
 
-## Types
+## Extra magic
 
-- Record type (product type, immutable, easy to copy and modify, structural semantics)
-- Discriminated union (sum type, linked to (exhaustive) pattern matching)
-- Option type (no null by default)
-- Result type (encode errors in type system)
-- Tuple (product type, it’s not a type common to all languages, so I did not list it as such)
-- Unit type
-- Array
-- List
-- Map
-- [Set](../../types/set.md)
-- Sequence
-- Anonymous records
-- Events
-- Structs
-- Delegates
-- Enums
+These extra steps will make your track better, but are optional.
 
-## Resources used
+### Analyzer
 
-- Official language reference: https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/
-- F# for fun and profit: https://fsharpforfunandprofit.com/
+- [ ] Build Analyzer
+- [ ] Deploy Analyzer
