@@ -55,16 +55,16 @@ As this is an introductory exercise, we should take care not to link to very adv
 
 This Concepts Exercise's Concepts are:
 
-- `basic-collections`
-- `basic-arrays`
+- `collections-basic`
+- `arrays-basic`
 
 ## Prequisites
 
-As an array is a collection type, it holds zero or more instances of another type. That means it _has_ to depend on one or more other types. In this exercise, we'll use the `int` data type for that, which is both interesting enough and easy to work with. The `int` data type is introduced in the `basic-numbers` concept.
+As an array is a collection type, it holds zero or more instances of another type. That means it _has_ to depend on one or more other types. In this exercise, we'll use the `int` data type for that, which is both interesting enough and easy to work with. The `int` data type is introduced in the `numbers-basic` concept.
 
 This Concept Exercise's prerequisites Concepts are:
 
-- `basic-numbers`
+- `numbers-basic`
 
 ## Implementing
 
@@ -84,7 +84,7 @@ languages
                 |   ├── instructions.md
                 |   └── introduction.md
                 ├── .meta
-                |   ├── config.json
+                |   |── design.md
                 |   └── Example.cs
                 ├── Arrays.csproj
                 ├── Arrays.cs
@@ -100,7 +100,7 @@ These files are specific to the C# track:
 - `Arrays.cs`. the stub implementation file, which is the starting point for students to work on the exercise.
 - `.meta/Example.cs`: an example implementation that passes all the tests.
 
-Check out the [`floating-point-numbers exercise`][concept-exercises-floating-point-numbers] for an example on what these files should look like.
+Check out the [`numbers-floating-point exercise`][concept-exercises-numbers-floating-point] for an example on what these files should look like.
 
 ### Step 2: adding documentation files
 
@@ -109,11 +109,7 @@ Check out the [`floating-point-numbers exercise`][concept-exercises-floating-poi
 - `.docs/hints.md`: if the user gets stuck, we will allow them to click a button requesting a hint, which shows this file. We will softly discourage them using it. The file should contain both general and task-specific "hints". These hints should be enough to unblock almost any student. An example file can be found [here][hints.md].
 - `.docs/after.md`: once the user completes the exercise they will be shown this file, which gives them any bonus information or further reading about the concept taught. An example file can be found [here][after.md].
 
-### Step 3: adding other files
-
-- `.meta/config.json`: metadata for the exercise. This includes defining the test file and the solution files, as well as a list of all the tests and the method they are calling. An example file can be found [here][meta-config.json].
-
-### Step 4: updating files
+### Step 3: updating files
 
 - `languages/csharp/config.json`: a new entry should be added to the `"concept"` array, which is part of the `"exercises"` property:
 
@@ -121,18 +117,18 @@ Check out the [`floating-point-numbers exercise`][concept-exercises-floating-poi
 {
   "slug": "arrays",
   "uuid": "b6c532c9-1e89-4fbf-8f08-27f5befb5bb8",
-  "concepts": ["basic-collections", "basic-arrays"],
-  "prerequisites": ["basic-numbers"]
+  "concepts": ["collections-basic", "arrays-basic"],
+  "prerequisites": ["numbers-basic"]
 }
 ```
 
-### Step 5: updating list of implemented exercises
+### Step 4: updating list of implemented exercises
 
 - Add the exercise to the [list of implemented exercises][concept-exercises].
 
 ### Inspiration
 
-When implementing this exercise, it can be very useful to look at already implemented C# exercises like the [strings][concept-exercises-strings], [dates][concept-exercises-dates] or [floating-point numbers][concept-exercises-floating-point-numbers] exercises. You can also check the [general array concept documentation][array] to see if any other languages have already implemented an arrays exercise.
+When implementing this exercise, it can be very useful to look at already implemented C# exercises like the [strings][concept-exercises-strings], [dates][concept-exercises-dates] or [floating-point numbers][concept-exercises-numbers-floating-point] exercises. You can also check the [general array concept documentation][array] to see if any other languages have already implemented an arrays exercise.
 
 ## Representer
 
@@ -154,12 +150,11 @@ This exercise could benefit from having an [analyzer][analyzer] that can comment
 [csharp]: https://github.com/exercism/v3/blob/master/languages/csharp/README.md
 [concept-exercises-strings]: https://github.com/exercism/v3/tree/master/languages/csharp/exercises/concept/strings
 [concept-exercises-dates]: https://github.com/exercism/v3/tree/master/languages/csharp/exercises/concept/dates
-[concept-exercises-floating-point-numbers]: https://github.com/exercism/v3/tree/master/languages/csharp/exercises/concept/numbers-floating-point
+[concept-exercises-numbers-floating-point]: https://github.com/exercism/v3/tree/master/languages/csharp/exercises/concept/numbers-floating-point
 [analyzer]: https://github.com/exercism/csharp-analyzer
 [representer]: https://github.com/exercism/csharp-representer
 [after.md]: https://github.com/exercism/v3/blob/master/languages/csharp/exercises/concept/numbers-floating-point/.docs/after.md
 [hints.md]: https://github.com/exercism/v3/blob/master/languages/csharp/exercises/concept/numbers-floating-point/.docs/hints.md
 [introduction.md]: https://github.com/exercism/v3/blob/master/languages/csharp/exercises/concept/numbers-floating-point/.docs/introduction.md
 [instructions.md]: https://github.com/exercism/v3/blob/master/languages/csharp/exercises/concept/numbers-floating-point/.docs/instructions.md
-[meta-config.json]: https://github.com/exercism/v3/blob/master/languages/csharp/exercises/concept/numbers-floating-point/.meta/config.json
 [concept-exercises]: https://github.com/exercism/v3/tree/master/languages/csharp/exercises/concept/README.md
