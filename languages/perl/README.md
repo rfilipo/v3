@@ -5,7 +5,7 @@ Welcome to the workspace for Exercism v3's Perl track!
 This area will contain everything needed to launch the Perl track, including:
 
 - The new exercises and `config.json` file.
-- Reference documentation that help explain C concepts for which no appropriate online document could be found.
+- Reference documentation that help explain Perl concepts for which no appropriate online document could be found.
 - Perl specific documentation for contributors.
 
 ## Preparation Status
