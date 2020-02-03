@@ -328,9 +328,6 @@ Perl has a very diferent notion of sintax and expressiveness, so some concepts, 
 - Perl bindings with C and other languages
 - Perl as a shell script alternative
 
-### user-land concepts
+### Perl unique concepts
 
-- Stream based programming (rxjs, observable -> might make it into language)
-- Declarative programming (Vue, React etc)
-- Transpilers (Babel, Buble, TypeScript, etc) -> corejs compatibility etc.
-- Bundlers (Parcel, Webpack, Rollup, etc)
+- 
