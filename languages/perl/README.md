@@ -277,46 +277,6 @@ Perl has a very diferent notion of sintax and expressiveness, so some concepts, 
 [concept-type-casting]: ../../concepts/type_casting.md
 [concept-variables]: ../../concepts/variables.md
 
-## Language specific concepts
-
-- [`async`][keyword-async]/[`await`][keyword-await] [concurrency][concept-concurrency] model
-- Arguments
-  - All arguments are optional
-  - Named arguments via [destructuring][concept-destructuring]
-- [Event loop][concept-event-loop] (see also: [Events][concept-events])
-- [Generators][concept-generators]
-- [Hoisting][concept-hoisting]
-- [Iterators][concept-iterators]
-- [Modules][concept-modules] ([`import`][keyword-import], [`require`][keyword-require])
-- Package Management
-- [Prototype based inheritance][concept-prototype-inheritance]
-- [Sameness][concept-sameness]
-- [Strict mode][concept-strict-mode]
-- [Typed arrays][global-object-typed-array]
-- Types vs. objects (see also [prototype-based inheritance][concept-prototype-inheritance])
-  - [Global objects][concept-global-objects]
-  - [Arrays are objects, with indexer][global-object-array]
-  - [Functions are callable objects][global-object-function]
-
-[concept-concurrency]: ../../concepts/concurrency.md
-[concept-events]: ../../languages/javascript/info/events.md
-[concept-event-loop]: ../../languages/javascript/info/event_loop.md
-[concept-generators]: ../../languages/javascript/info/generators.md
-[concept-global-objects]: ../../languages/javascript/info/global_objects.md
-[concept-hoisting]: ../../languages/javascript/info/hoisting.md
-[concept-iterators]: ../../languages/javascript/info/iterators.md
-[concept-modules]: ../../languages/javascript/info/modules.md
-[concept-prototype-inheritance]: ../../languages/javascript/info/prototype_inheritance.md
-[concept-sameness]: ../../languages/javascript/info/sameness.md
-[concept-strict-mode]: ../../languages/javascript/info/strict_mode.md
-[keyword-async]: ./keywords/async.md
-[keyword-await]: ./keywords/await.md
-[keyword-new]: ./keywords/new.md
-[keyword-import]: ./keywords/import.md
-[keyword-instanceof]: ./keywords/instanceof.md
-[keyword-require]: ./keywords/require.md
-[keyword-typeof]: ./keywords/typeof.md
-[platforms-jsdoc]: ../../tooling/jsdoc.md
 
 ## Other important/interesting things
 
