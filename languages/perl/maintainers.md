@@ -8,6 +8,7 @@ These awesome people help maintain the Perl track.
 - Victor Goff  (Slack: `@KOPT`, GitHub: ?)
 - Ricardo Filipo (Slack: `@Monsenhor`, Github: ())
 - Daniel Mita (Slack: @Daniel Mita`, Github: ())
+- Yanick Shampoux ()
 
 ## Contributing Maintainers
 
