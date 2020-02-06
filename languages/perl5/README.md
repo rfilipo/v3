@@ -1,21 +1,21 @@
-# TypeScript
+# Perl 5
 
-Welcome to the workspace for Exercism v3's TypeScript track!
+Welcome to the workspace for Exercism v3's Perl 5 track!
 
-This area will contain everything needed to launch the TypeScript track, including:
+This area will contain everything needed to launch the Perl 5 track, including:
 
 - The new exercises and `config.json` file.
-- Reference documentation that help explain TypeScript concepts for which no appropriate online document could be found.
-- TypeScript-specific documentation for contributors.
+- Reference documentation that help explain Perl 5 concepts for which no appropriate online document could be found.
+- Perl 5-specific documentation for contributors.
 
 ## Preparation Status
 
 Before we publicize requesting contribution for this language, the following steps should be done.
 
-- [ ] Have a kick-off discussion between track maintainers
+- [x] Have a kick-off discussion between track maintainers
 - [ ] Fill out the [maintainers.md](./maintainers.md) file (e.g. [C#](../csharp/maintainers.md))
 - [x] Ensure there is a link to your track's GitHub issues on the [main README.md](../../README.md)
-- [x] [Write a Concept Exercise implementation guide](../../docs/maintainers/writing-a-concept-exercise-github-issue.md)
+- [ ] [Write a Concept Exercise implementation guide](../../docs/maintainers/writing-a-concept-exercise-github-issue.md)
 - [ ] [List out key Concepts for your language](../../docs/maintainers/determining-concepts.md)
 - [ ] [Add GitHub issues for 20 Concept Exercises](../../docs/maintainers/writing-a-concept-exercise-github-issue.md)
 
